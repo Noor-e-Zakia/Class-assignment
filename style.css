@@ -1,0 +1,189 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 100px;
+}
+header .logo-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+header nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px 16px;
+}
+
+header nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+   text-decoration: none;
+   text-transform: uppercase;
+    
+    
+}
+header .brand-link{
+    display: none;
+}
+
+@media only screen and (min-width:1000px){
+    header .logo-brand{
+        margin: 30px 0;
+        line-height: 38px;
+        text-align: left;
+        padding: 0px 20px 0px 40px;
+        border-right:3px solid black ;
+        float: left;
+    }
+    header nav ul{
+        margin: 20px 0px 0px  20px;
+       float: left;
+    
+    }
+    
+    header nav ul li a{
+       line-height: 60px;
+        
+    }
+    header .brand-link{
+        display: block;
+        line-height: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: black;
+       text-decoration: none;
+       text-transform: uppercase;
+       border: 2px solid black;
+       float: right;
+       margin-right: 40px ;
+       margin-top: 30px;
+       padding: 0 20px;
+    }
+
+}
+/* MAIN SECTION */
+
+.about-me{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url(images/background\ image.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.about-me h3{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    text-shadow: 2px 2px 8px black;
+}
+.about-me h2{
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
+    text-shadow: 2px 2px 8px black;
+}
+.links a{
+    text-decoration: none;
+}
+.links div{
+    margin: 16px 16px 0;
+    width: calc(100%-32px);
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.links div h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 100px;
+    text-align: center;
+}
+@media only screen and (min-width:1000px){
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .about-me{
+        height: 450px;
+    
+    }
+    .about-me h2{
+       display: block;
+       width: 500px;
+       margin: 0 auto;
+       font-weight: 500;
+    }   
+    .links div{
+        margin: 10px 10px 0;
+        height: 100px;
+        background-color: lightgrey;
+    }
+   
+}
+
+
+/* FOOTER */
+footer{
+    width: 100%;
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: black;
+    overflow: hidden;
+}
+footer a {
+    text-decoration: none;
+}
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+footer ul li {
+    display: block;
+   list-style-type: none;
+}
+footer ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+    
+}
+.main-links{
+    display: none;
+}
+.social-media{
+    width: 50px;
+    float: right;
+
+}
+.social-media img{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
